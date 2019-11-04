@@ -56,5 +56,3 @@ source devel/setup.bash
 chmod +x src/motion_plan/scritps/follow_wall.py 
 rosrun motion_plan follow_wall.py 
 ```
-
-
