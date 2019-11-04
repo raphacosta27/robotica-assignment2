@@ -13,11 +13,12 @@
 
     <param name="robot_description" command="$(find xacro)/xacro.py '$(find ag2)/urdf/ag2.xacro'" />
 
-    <arg name="x" default="0"/>
-    <arg name="y" default="0"/>
+    <arg name="x" default="4"/>
+    <arg name="y" default="2"/>
     <arg name="z" default="0.5"/>
+    <arg name="yaw" default="1.5"/>
 
     <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
-          args="-urdf -param robot_description -model ag2 -x $(arg x) -y $(arg y) -z $(arg z)" />
+          args="-urdf -param robot_description -model ag2 -x $(arg x) -y $(arg y) -z $(arg z) -yaw $(arg yaw)" />
 
 </launch>
