@@ -1,8 +1,0 @@
-prefix=/home/raphacosta/simulation_ws/install
-
-Name: ag2
-Description: Description of ag2
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/raphacosta/simulation_ws/install/lib 
-Requires: 
