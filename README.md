@@ -59,4 +59,4 @@ rosrun motion_plan follow_wall.py
 
 ## State Machine
 
-![imgs/state_machine](state_machine.png)
+![state_machine](imgs/state_machine.png)
