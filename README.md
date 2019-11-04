@@ -56,3 +56,7 @@ source devel/setup.bash
 chmod +x src/motion_plan/scritps/follow_wall.py 
 rosrun motion_plan follow_wall.py 
 ```
+
+## State Machine
+
+![state_machine](state_machine.png)
