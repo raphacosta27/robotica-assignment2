@@ -34,26 +34,26 @@
 - Gazebo multi-robot simulator, version 7.16.0 or later.
 ## How to compile
 <code>
-    cd simulation_ws <br>
-    catkin_make <br>
-    cd ../catkin_ws <br>
-    catkin_make <br>
+    cd simulation_ws </br>
+    catkin_make </br>
+    cd ../catkin_ws </br>
+    catkin_make </br>
 </code>
 
 ## How to execute
 
-In one terminal: <br>
+In one terminal: </br>
 <code>
-cd simulation_ws <br>
-source devel/setup.bash <br>
-roslaunch ag2 spawn.launch <br>
+cd simulation_ws </br>
+source devel/setup.bash </br>
+roslaunch ag2 spawn.launch </br>
 </code>
 
-Open another terminal:<br>
+Open another terminal:</br>
 <code>
-cd catkin_ws <br>
-source devel/setup.bash <br>
-chmod +x src/motion_plan/scritps/follow_wall.py <br>
-rosrun motion_plan follow_wall.py <br>
+cd catkin_ws </br>
+source devel/setup.bash </br>
+chmod +x src/motion_plan/scritps/follow_wall.py </br>
+rosrun motion_plan follow_wall.py </br>
 </code>
 
